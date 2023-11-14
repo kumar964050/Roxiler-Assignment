@@ -1,0 +1,82 @@
+.container{
+  background-color: #edf6f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin: 25px;
+}
+.title h1{
+  font-size: 24px;
+}
+.input-container{
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.input-container input[type="text"]{
+  height: 30px;
+  padding: 1rem;
+  background-color: #f8df8c;
+  border: 1px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}
+.input-container input[type="text"]::placeholder {
+  color:black;
+}
+.input-container select{
+  height: 30px;
+  padding: 0 10px;
+  background-color: #f8df8c;
+  border: 1px solid black;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+}                                   
+
+table{
+
+}
+td, th{
+  padding:  10px;
+}
+
+.card{
+  margin: 30px;
+}
+.navigation{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation button{
+  width: 100px;
+  height: 26px;
+  margin: 5px ;
+}
+.center{
+  text-align: center;
+}
+
+.limit{
+  display: flex;
+  align-items: center;
+}
+.limit button{
+  width: 30px;
+  height: 30px;
+}
